@@ -1,0 +1,2 @@
+
+('aman', 'dubey', '12', 'shs', 'dto', 'cricket')

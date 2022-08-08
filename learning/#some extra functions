@@ -1,0 +1,41 @@
+'''
+The enumerate() function takes a collection (e.g. a tuple) and returns it as an enumerate object.
+The enumerate() function adds a counter as the key of the enumerate object.
+
+Syntax
+enumerate(iterable, start)
+
+listt = ['ashu', 'prachi','cheeku']
+print(enumerate(listt, 1))
+
+output - [(1,'ashu'),(2,'prachi'),(3,'cheeku')]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
+

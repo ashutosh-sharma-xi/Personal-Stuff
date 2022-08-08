@@ -1,0 +1,27 @@
+# all about comprehensions
+# comprehensions can be done on either lists, tuples or sets
+
+# syntax:  <logic> <for loop> <condition>
+
+'''the elements of the list first comes to the for loop which  one by one goes to conditional statement 
+and if the condition is satisfied the logic is executed.'''
+
+lst = [2,4,6,8,,10]
+tpl = (3,6,9,12)
+
+#-------------------------------------------
+lst2 = []
+for i in lst:
+	lst2.append(i**3)
+print(lst2)
+#-----------------------------------------
+# that program by comprehensions can be done in this way
+print([i**3 for i in lst])
+print((j**2 for j in tpl))
+#------------------------------------------------
+
+
+
+
+
+
